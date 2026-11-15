@@ -1,24 +1,73 @@
 .footer-section {
   background-color: #2e2f42;
-  padding: 100px 0px;
+  padding: 100px 0;
 }
 
-.footer-section a {
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.footer-section a span {
+.footer-logo span {
   color: #4d5ae5;
 }
 
-.footer-section p {
+.footer-text {
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-social .social-holder {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social .social-icons:hover,
+.footer-social .social-icons:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social .social-icons svg {
+  fill: #f4f4fd;
 }

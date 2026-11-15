@@ -25,3 +25,18 @@
   color: #434455;
   margin: 0;
 }
+
+.icons-holder {
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  padding: 24px 24px;
+}
+
+.icons-holder > svg {
+  display: flex;
+  margin: 0 auto;
+}
