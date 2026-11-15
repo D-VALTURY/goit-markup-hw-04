@@ -27,16 +27,13 @@
 }
 
 .icons-holder {
-  background-color: #F4F4FD;
-  border: 1px solid #8E8F99;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 264px;
+  width: 100%;
   height: 112px;
   margin-bottom: 8px;
-  padding: 24px 24px;
-}
-
-.icons-holder > svg {
   display: flex;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }

@@ -4,7 +4,6 @@
   border-bottom: 1px solid #e7e9fc;
 }
 
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -18,7 +17,8 @@
   text-transform: uppercase;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  margin-right: 76px; 
+  margin-right: 76px;
+  text-decoration: none;
 }
 
 .logo > span {
@@ -44,9 +44,13 @@
   text-decoration: none;
 }
 
+.nav-link.active {
+  padding: 24px 0;
+}
+
 .top-adress {
   font-style: normal;
-  margin-left: auto; 
+  margin-left: auto;
 }
 
 .adress-list {
